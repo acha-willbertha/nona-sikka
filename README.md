@@ -32,6 +32,6 @@
 
 |        Link         |  Command  |
 |---------------------|-------------------|
-| via WGET | `bash -c "$(wget -qO- https://raw.githubusercontent.com/kenDevXD/Xray/main/lynn)"` |
-| via CURL | `bash -c "$(curl -fsSL https://raw.githubusercontent.com/kenDevXD/Xray/main/lynn)"` |
+| via WGET | `bash -c "$(wget -qO- https://raw.githubusercontent.com/acha-willbertha/nona-sikka/main/vava)"` |
+| via CURL | `bash -c "$(curl -fsSL https://raw.githubusercontent.com/acha-willbertha/nona-sikka/main/vava)"` |
 
