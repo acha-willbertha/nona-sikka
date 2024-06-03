@@ -29,7 +29,7 @@ fi
 if [ -z $Login ]; then
 echo -e "$COLOR1│${NC} [Error] Username cannot be empty "
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
-echo -e "$COLOR1      ANGGUN AIO SC    Service${NC}"
+echo -e "$COLOR1     DoubleFour Magepanda Project${NC}"
 echo ""
 read -n 1 -s -r -p "    Press any key to back on menu"
 menu-ssh
@@ -38,7 +38,7 @@ read -p "   Password : " Pass
 if [ -z $Pass ]; then
 echo -e "$COLOR1│${NC}  [Error] Password cannot be empty "
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
-echo -e "$COLOR1       ANGGUN AIO SC    Service${NC}"
+echo -e "$COLOR1     DoubleFour Magepanda Project${NC}"
 echo ""
 read -n 1 -s -r -p "   Press any key to back on menu"
 menu-ssh
@@ -47,7 +47,7 @@ read -p "   Expired (hari): " masaaktif
 if [ -z $masaaktif ]; then
 echo -e "$COLOR1│${NC}  [Error] EXP Date cannot be empty "
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
-echo -e "$COLOR1     ANGGUN AIO SC Service${NC}"
+echo -e "$COLOR1     DoubleFour Magepanda Project${NC}"
 echo ""
 read -n 1 -s -r -p "  Press any key to back on menu"
 menu-ssh
@@ -92,7 +92,7 @@ echo -e "$COLOR1═════════════════════�
 echo -e "$COLOR1─────────────────────────────────────────────────${NC}"
 echo -e "  GET/ HTTP/1.1[crlf]Host: $domen[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: ws[crlf][crlf]"
 echo -e "$COLOR1─────────────────────────────────────────────────${NC}"
-echo -e "$COLOR1   ANGGUN AIO SC Service${NC}"
+echo -e "$COLOR1     DoubleFour Magepanda Project${NC}"
 else
 echo -e "$COLOR1═════════════════════SSH ACCOUNTS═══════════════════${NC}"
 echo -e "$COLOR1════════════════════════════════════════════════════${NC}"
@@ -116,7 +116,7 @@ echo -e "$COLOR1═════════════════════�
 echo -e "$COLOR1─────────────────────────────────────────────────${NC}"
 echo -e "  GET / HTTP/1.1[crlf]Host: $domen[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: ws[crlf][crlf]"
 echo -e "$COLOR1─────────────────────────────────────────────────${NC}"
-echo -e "$COLOR1 ANGGUN AIO SC Service${NC}"
+echo -e "$COLOR1     DoubleFour Magepanda Project${NC}"
 fi
 echo -e ""
 read -n 1 -s -r -p "  Press any key to back on menu"
@@ -159,7 +159,7 @@ echo -e "$COLOR1│${NC}  [INFO] • ${green}SSH Websocket Started${NC}"
 echo -e "$COLOR1│${NC}  [INFO] • Restart is require for Changes"
 echo -e "$COLOR1│${NC}           to take effect"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
-echo -e "$COLOR1     ANGGUN AIO SC Service${NC}"
+echo -e "$COLOR1     DoubleFour Magepanda Project${NC}"
 echo -e ""
 read -n 1 -s -r -p "  Press any key to back on menu"
 sshwss
@@ -177,7 +177,7 @@ echo -e "$COLOR1│${NC}  [INFO] • ${red}SSH Websocket Stopped${NC}"
 echo -e "$COLOR1│${NC}  [INFO] • Restart is require for Changes"
 echo -e "$COLOR1│${NC}           to take effect"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
-echo -e "$COLOR1      ANGGUN AIO SC Service${NC}"
+echo -e "$COLOR1     DoubleFour Magepanda Project${NC}"
 echo -e ""
 read -n 1 -s -r -p "  Press any key to back on menu"
 sshwss
@@ -198,7 +198,7 @@ echo -e "$COLOR1│$NC   ${COLOR1}[1]${NC} • Enable SSH WS"
 echo -e "$COLOR1│$NC   ${COLOR1}[2]${NC} • Disable SSH WS"
 echo -e "$COLOR1│$NC   ${COLOR1}[0]${NC} • BACK TO MENU"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
-echo -e "$COLOR1     ANGGUN AIO SC Service${NC}"
+echo -e "$COLOR1     DoubleFour Magepanda Project${NC}"
 read -p " Select menu :  "  opt
 echo -e ""
 case $opt in
@@ -261,7 +261,7 @@ rm -f /tmp/login-db.txt
 rm -f /tmp/vpn-login-tcp.txt
 rm -f /tmp/vpn-login-udp.txt
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
-echo -e "$COLOR1      ANGGUN AIO SC    Service${NC}"
+echo -e "$COLOR1     DoubleFour Magepanda Project${NC}"
 echo "";
 read -n 1 -s -r -p "   Press any key to back on menu"
 menu-ssh
@@ -285,7 +285,7 @@ echo -e "   [INFO] Failure: User $Pengguna Not Exist."
 fi
 fi
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
-echo -e "$COLOR1     ANGGUN AIO SC Service${NC}"
+echo -e "$COLOR1     DoubleFour Magepanda Project${NC}"
 echo -e ""
 read -n 1 -s -r -p "   Press any key to back on menu"
 menu-ssh
@@ -302,7 +302,7 @@ ok="ok"
 else
 echo -e "$COLOR1│${NC}   [INFO] Failure: User $User Not Exist."
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
-echo -e "$COLOR1     ANGGUN AIO SC Service${NC}"
+echo -e "$COLOR1     DoubleFour Magepanda Project${NC}"
 echo ""
 read -n 1 -s -r -p "   Press any key to back on menu"
 menu
@@ -310,7 +310,7 @@ fi
 if [ -z $User ]; then
 echo -e "$COLOR1│${NC}   [Error] Username cannot be empty "
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
-echo -e "$COLOR1     ANGGUN AIO SC Service${NC}"
+echo -e "$COLOR1     DoubleFour Magepanda Project${NC}"
 echo ""
 read -n 1 -s -r -p "   Press any key to back on menu"
 menu
@@ -339,7 +339,7 @@ echo -e "   Username   : $User"
 echo -e "   Days Added : $Days Days"
 echo -e "   Expires on : $Expiration_Display"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
-echo -e "$COLOR1      ANGGUN AIO SC Service${NC}"
+echo -e "$COLOR1     DoubleFour Magepanda Project${NC}"
 else
 clear
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
@@ -348,7 +348,7 @@ echo -e "$COLOR1└────────────────────�
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
 echo -e "   Username Doesnt Exist      "
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
-echo -e "$COLOR1   ANGGUN AIO SC Service${NC}"
+echo -e "$COLOR1     DoubleFour Magepanda Project${NC}"
 echo ""
 read -n 1 -s -r -p "   Press any key to back on menu"
 menu-ssh
@@ -380,7 +380,7 @@ echo -e "$COLOR1└────────────────────�
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
 echo "   Total: $JUMLAH User"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
-echo -e "$COLOR1       ANGGUN AIO SC    Service${NC}"
+echo -e "$COLOR1     DoubleFour Magepanda Project${NC}"
 echo ""
 read -n 1 -s -r -p "   Press any key to back on menu"
 menu-ssh
@@ -433,7 +433,7 @@ echo -e "$COLOR1═════════════════════�
 echo -e "$COLOR1─────────────────────────────────────────────────${NC}"
 echo -e "  GET / HTTP/1.1[crlf]Host: $domen[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: ws[crlf][crlf]"
 echo -e "$COLOR1─────────────────────────────────────────────────${NC}"
-echo -e "$COLOR1   ANGGUN AIO SC Service${NC}"
+echo -e "$COLOR1     DoubleFour Magepanda Project${NC}"
 else
 clear
 echo -e "$COLOR1═════════════════════SSH ACCOUNTS═══════════════════${NC}"
@@ -458,7 +458,7 @@ echo -e "$COLOR1═════════════════════�
 echo -e "$COLOR1─────────────────────────────────────────────────${NC}"
 echo -e "$COLOR1│${NC}  GET / HTTP/1.1[crlf]Host: $domen[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: ws[crlf][crlf]"
 echo -e "$COLOR1─────────────────────────────────────────────────${NC}"
-echo -e "$COLOR1   ANGGUN AIO SC Service${NC}"
+echo -e "$COLOR1     DoubleFour Magepanda Project${NC}"
 fi
 echo ""
 read -n 1 -s -r -p "   Press any key to back on menu"
