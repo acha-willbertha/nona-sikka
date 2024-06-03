@@ -34,7 +34,7 @@ MYIP=$(curl -sS ipv4.icanhazip.com)
 clear
 echo -e "${BB}————————————————————————————————————————————————————————${NC}"
 echo -e ""
-echo -e "           ${WB}━━━━━ [ AIXXY7.COM XRAY ] ━━━━━${NC}       "
+echo -e "           ${WB}━━━━━ [ DoubleFour Magepanda Project ] ━━━━━${NC}       "
 echo -e ""
 echo -e "${BB}————————————————————————————————————————————————————————${NC}"
 echo -e " ${YB}Service Provider${NC} ${WB}: $ISP${NC}"
